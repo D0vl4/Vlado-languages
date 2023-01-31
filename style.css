@@ -37,7 +37,7 @@ nav {
     width: 31rem;
     height: 13rem;
     background-color: var(--button);
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 10px 0 0;
 }
 
 .section--top {
