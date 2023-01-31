@@ -54,6 +54,7 @@ nav {
     padding: 2rem;
     background-color: var(--white);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
 }
 
 h1 {
@@ -109,8 +110,9 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding-top: 1rem;
     background-color: var(--white);
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.1);
     width: 31rem;
     height: 10rem;
 }
