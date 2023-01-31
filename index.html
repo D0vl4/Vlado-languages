@@ -23,12 +23,13 @@
 
         sectionLanguages.forEach((sectionLanguage) => {
           sectionLanguage.addEventListener("click", function () {
+            sectionLanguages.forEach((section) => {
+              if (section !== this) {
+                section.classList.remove("expanded");
+              }
+            });
             this.classList.toggle("expanded");
           });
-        });
-
-        buttonClose.addEventListener("click", function () {
-          window.close();
         });
       });
     </script>
