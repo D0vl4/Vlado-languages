@@ -38,6 +38,21 @@
         // buttonClose.addEventListener("click", function () {
         //   window.close();
         // });
+        function updateTime() {
+  const now = new Date();
+  const timeElement = document.querySelector('#time');
+  timeElement.innerText = now.toLocaleString('en-GB', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric'
+  }) + ' - ' + ' ' + now.toLocaleTimeString('en-GB', {
+    hour: '2-digit',
+    minute: '2-digit'
+  });;
+}
+
+updateTime();
+setInterval(updateTime, 1000);
       });
     </script>
     <main>
@@ -54,9 +69,12 @@
       </nav>
       <section class="section--top">
         <h1>Hello and welcome 👋🏻</h1>
+        
         <p>
           Programming languages that I am learning for the past few months are:
         </p>
+        <label for="time">The current time is:</label>
+        <div id="time"></div>
       </section>
       <section class="section--middle">
         <span>PLEASE CLICK ON THE ACCORDION BELLOW:</span>
@@ -185,6 +203,7 @@
         <span>Current progress: 66% 🎉</span>
         <progress id="file" value="66" max="100">66%</progress>
         <input id="button-close" type="button" value="Okay" />
+        <p>Coded by <strong><a href="https://dovla.me" target="_blank">Vlado</strong></a></p>
       </footer>
     </main>
   </body>
