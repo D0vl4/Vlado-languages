@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <script>
+   <script>
       document.addEventListener("DOMContentLoaded", function () {
         const sectionLanguages = document.querySelectorAll(".section-language");
         const buttonClose = document.querySelector("#button-close");
@@ -30,6 +30,9 @@
             });
             this.classList.toggle("expanded");
           });
+        });
+        buttonClose.addEventListener("click", function () {
+          window.close();
         });
       });
     </script>
