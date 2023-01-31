@@ -59,7 +59,7 @@ nav {
 #time {
   font-weight: 300;
   color: var(--button);
-  align-self: flex-end;
+  align-self: center;
 }
 
 label {

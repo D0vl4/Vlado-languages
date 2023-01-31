@@ -57,7 +57,8 @@
     year: 'numeric'
   }) + ' - ' + ' ' + now.toLocaleTimeString('en-GB', {
     hour: '2-digit',
-    minute: '2-digit'
+    minute: '2-digit',
+    second: '2-digit'
   });;
 }
 
@@ -82,9 +83,9 @@ setInterval(updateTime, 1000);
         <h1>Hello and welcome 👋🏻</h1>
         
         <p>
-          Programming languages that I am learning for the past few months are:
+          Programming languages which I am learning for the past few months are below, and if you are wondering what time is it now, it's:
         </p>
-        <label for="time">Current time is:</label>
+        <label for="time"></label>
         <div id="time"></div>
       </section>
       <section class="section--middle">
