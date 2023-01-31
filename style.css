@@ -34,34 +34,6 @@ main {
   overflow: hidden;
 }
 
-/* #overlay {
-  display: none;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 31rem;
-  height: 68rem;
-  background-color: rgba(0, 0, 0, 0.75);
-  z-index: 99999999;
-}
-
-.note {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  height: 10rem;
-  background-color: var(--white);
-}
-
-.thanks {
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  color: var(--button);
-  font-weight: 500;
-} */
-
 nav {
   display: flex;
   justify-content: center;
