@@ -166,7 +166,7 @@ input:active {
   display: flex;
   align-items: center;
   padding-top: 3.5rem;
-  height: 12rem;
+  height: 10rem;
 }
 
 .section-language.expanded .arrow-right-html {
