@@ -91,8 +91,7 @@ p {
 
 .section-language {
   display: flex;
-  /* align-items: center; */
-  align-items: flex-start;
+  align-items: center;
   gap: 1rem;
   padding: 2.5rem 1rem;
   width: 27rem;
@@ -165,7 +164,7 @@ input:active {
 
 .section-language.expanded {
   display: flex;
-  align-items: center;
+  align-items: start;
   padding-top: 3.5rem;
   height: 10rem;
 }
