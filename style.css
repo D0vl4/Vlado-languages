@@ -164,7 +164,7 @@ input:active {
 
 .section-language.expanded {
   display: flex;
-  align-items: start;
+  align-items: center;
   padding-top: 3.5rem;
   height: 10rem;
 }
